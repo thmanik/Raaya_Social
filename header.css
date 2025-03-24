@@ -102,6 +102,7 @@ background:#FFFFFF;
 /*--- for side bar---- */
 .sidebar {
     position: fixed;
+    z-index: 10;
     top: 0;
     left: -250px;
     width: 250px;
@@ -507,8 +508,40 @@ margin-top: 10px;
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 340px) {
     .navbar {
         padding: 10px 15px;
     }
+
+    .loginButton{
+        font-family: Nunito;
+        width: 40px;
+        height: 25px;
+        padding-top: 2px;
+        padding-right: 4px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        gap: 2px;
+        border: 1px solid gray;
+        border-radius: 12px;
+        font-weight: 400;
+        font-size: 12px;
+       
+        }
+    
+        .bookDemoButton{
+            width: 100px;
+            height: 30px;
+            gap: 6px;
+            border: 1px solid gray;
+            border-radius: 12px;
+            padding-top: 2px;
+            padding-right: 5px;
+            padding-bottom: 2px;
+            padding-left: 5px;
+            font-family: Nunito;
+       
+            color: #A657E7;
+            background:#FFFFFF;
+            }
 }
