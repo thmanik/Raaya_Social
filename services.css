@@ -1,7 +1,8 @@
 .services-section{
     background-color: #F5F5F5;
-    padding: 10px 10px;
+    padding: 10px 10px 100px 10px;
     font-family: Poppins;
+
 }
 
 .services-heading {
@@ -39,6 +40,7 @@
     margin-bottom: 10px;
     margin-top: 10x;
     background: linear-gradient(177.38deg, #B564F7 8.45%, #6A2F9B 98.78%);
+    color: white;
 
 }
 .services-heading h1{
@@ -255,6 +257,12 @@ margin-left: 30px;
     .getstartbutton{
         margin-left: 30%;
     }
+    .services-section{
+        background-color: #F5F5F5;
+        padding: 10px 10px 50px 10px;
+        font-family: Poppins;
+    
+    }
 
 }
 
@@ -312,5 +320,6 @@ margin-left: 30px;
     }
     .getstartbutton{
         margin-left: 30%;
+
     }
 }
