@@ -1,4 +1,4 @@
-
+// -----------------for slider
 document.addEventListener("DOMContentLoaded",()=>{
     const menuIcon = document.querySelector(".menu-icon");
     const sidebar = document.querySelector(".sidebar");
@@ -16,7 +16,7 @@ closeBtn.addEventListener("click",()=>{
 
 })
 
-// for business video slider
+//--------------- for business video slider
 let businessSlider = document.querySelector('.b-slider')
 let previousButton = document.getElementById('prevButton')
 let nextButton = document.getElementById('nextButton');
@@ -26,7 +26,7 @@ previousButton.addEventListener('click', function(){businessSlider.scrollBy({lef
 
 nextButton.addEventListener('click', function(){ businessSlider.scrollBy({ left: siderWidth, behavior: 'smooth' }) });
 
-// for personal video slider
+// ----------------for personal video slider
 
 let personalSlider = document.querySelector('.p-slider');
 let previousButtonPersonal = document.getElementById('prevButtonPersonal');
@@ -40,3 +40,38 @@ previousButtonPersonal.addEventListener('click', function(){
 nextButtonPersonal.addEventListener('click', function(){
     personalSlider.scrollBy({left: sliderWidthPersonal, behavior: 'smooth'});
 });
+
+
+
+//------------------------------------ faq
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    let faqItems = document.querySelectorAll(".faq-item"); 
+
+    faqItems.forEach(function(item) {
+        let question = item.querySelector(".faq-question");
+        let icon = question.querySelector(".faqIcon"); 
+
+question.addEventListener("click", function() {
+ let isActive = item.classList.contains("active");      
+
+          
+            faqItems.forEach(function(faq) {
+                faq.classList.remove("active"); 
+                faq.querySelector(".faqIcon").textContent = "+"; 
+            });
+
+           
+        if (isActive) {
+                item.classList.remove("active"); 
+                icon.innerText = "+"; 
+         } else {
+                item.classList.add("active");
+                icon.innerHTML = "-"; 
+            }
+        });
+    });
+});
+
