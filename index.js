@@ -16,8 +16,27 @@ closeBtn.addEventListener("click",()=>{
 
 })
 
+// for business video slider
+let businessSlider = document.querySelector('.b-slider')
+let previousButton = document.getElementById('prevButton')
+let nextButton = document.getElementById('nextButton');
+let siderWidth = document.querySelector('.slide').offsetWidth+15; 
 
+previousButton.addEventListener('click', function(){businessSlider.scrollBy({left:-siderWidth,behavior:'smooth'});});
 
+nextButton.addEventListener('click', function(){ businessSlider.scrollBy({ left: siderWidth, behavior: 'smooth' }) });
 
+// for personal video slider
 
+let personalSlider = document.querySelector('.p-slider');
+let previousButtonPersonal = document.getElementById('prevButtonPersonal');
+let nextButtonPersonal = document.getElementById('nextButtonPersonal');
+let sliderWidthPersonal = document.querySelector('.slide').offsetWidth + 15;
 
+previousButtonPersonal.addEventListener('click', function(){
+    personalSlider.scrollBy({left: -sliderWidthPersonal, behavior: 'smooth'});
+});
+
+nextButtonPersonal.addEventListener('click', function(){
+    personalSlider.scrollBy({left: sliderWidthPersonal, behavior: 'smooth'});
+});
