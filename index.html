@@ -19,13 +19,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 </head>
 <body  >
-    <!------------ navbar code  -------------->
+ <div class="raaya-social">
+       <!------------ navbar code  -------------->
    <section>
     <nav class="navber">
         <div ><img class="logo" src="/assets/Images/logo.png"></div>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Services ⌵</a></li>
+            <li class="dropdown">
+                <a href="#">Services ⌵</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Content</a></li>
+                </ul>
+            </li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Reviews</a></li>
             <li><a href="#">Pricing</a></li>
@@ -44,7 +51,13 @@
         <span class="close-btn">&times;</span>
         <ul class="sidebar-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Services ⌵</a></li>
+            <li class="dropdown">
+                <a href="#">Services ⌵</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Content</a></li>
+                </ul>
+            </li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Reviews</a></li>
             <li><a href="#">Pricing</a></li>
@@ -86,7 +99,9 @@
     <div class="social-section">
         <p class="socialtitle">Social channel we work with</p>
         <div class="icons">
-            <div class="socialImage"><img src="/assets/Images/instagram.png" class="Socialicon"></img></div>
+
+            <div class="socialImage">
+                <img src="/assets/Images/instagram.png" class="Socialicon"></img></div>
             <div class="socialImage"><img src="/assets/Images/facebook.png" class="Socialicon"></img></div>
             <div class="socialImage"><img src="/assets/Images/X.png" class="Socialicon"></img></div>
             <div class="socialImage"><img src="/assets/Images/youtube.png" class="Socialicon"></img></div>
@@ -154,6 +169,8 @@
         Explore our services to find the perfect solution for your brand’s growth!
     </p>
    </div>
+
+  
 
 
   <div class="service-content-Parant">
@@ -719,6 +736,7 @@
         <p>© 2024 TaxDax. All rights reserved.</p>
     </div>
 </footer>
+ </div>
 
     <script src="index.js"></script>
 
