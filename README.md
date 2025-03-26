@@ -7,4 +7,4 @@ It highlights the growing popularity of short-form video and its effectiveness i
 
 
 
-Deployment link: [text](https://raaya-social-omega.vercel.app)
+Deployment link: [Deploy Link](https://raaya-social-omega.vercel.app)
