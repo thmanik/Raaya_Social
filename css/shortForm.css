@@ -1,9 +1,9 @@
 .shortFormSection{
     display: flex;
-    padding: 50px 90px;
+    padding: 70px 90px 0px 90px;
 }
 .text-section{
-    padding: 40px 60px;
+    padding: 40px 10px 40px 50px;
     
 }
 .shortFormTitle {
