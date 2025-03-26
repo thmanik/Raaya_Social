@@ -111,14 +111,86 @@ padding-bottom: 10px;
 /* -------------------media query for making responsive  ------------------------------ */
 
 @media screen and (max-width: 1024px) {
-   
+    .engaging-card-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; 
+      }
+    
+      .engaging-card-section .engaging-card {
+        width: 48%; 
+      }
+      .smallCardParent{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px 10px;
+    }
+    .smallcard{
+        width: 378px;
+    height: 173px;
+    border-radius: 16px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    gap: 12px;
+    border: 1px solid #D0D5DD;
+    color: #344054;
+    }
+    .engagingImage{
+        width:95%;
+    height: 185px;
+    border-radius: 12px;
+    margin-top: 18px;
+    
+    }
+}
+
+@media screen and (max-width: 820px){
+    .engaging-card-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; 
+      }
+    
+      .engaging-card-section .engaging-card {
+        width: 48%; 
+      }
+      .smallCardParent{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px 10px;
+    }
+    .smallcard{
+        width: 378px;
+    height: 173px;
+    border-radius: 16px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    gap: 12px;
+    border: 1px solid #D0D5DD;
+    color: #344054;
+    }
+    .engagingImage{
+        width:95%;
+    height: 185px;
+    border-radius: 12px;
+    margin-top: 18px;
+    
+    }
 }
 
 @media screen and (max-width: 768px) {
 
     
        .engaging-card{
-        width: 90%;
+        width: 90% !important;
        height: auto;
        border-radius: 12px;
        padding-top: 15px;
@@ -155,7 +227,7 @@ margin-bottom: 15px;
        }
 .engagingImage{
     display: block; 
-    width: 90%;
+    width: 95%;
     border-radius: 12px;
     margin: 10px auto; 
     text-align: center;

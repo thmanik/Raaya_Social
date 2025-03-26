@@ -287,6 +287,23 @@ border: 1px solid #009FE254;
     .client-mobile-video {
         display: none 
     }
+    .firstTwoTestimonial-card{
+        width: 100%;  
+       
+        height: auto; 
+        padding: 20px;
+    }
+    
+    .secondThreetestimonial-card {
+        width: 100%;  
+       
+        height: auto; 
+        padding: 10px;
+    }
+        .socialtitle{
+            margin-top: 15px;
+
+        }
 }
 
 @media (max-width: 768px) {
@@ -299,6 +316,7 @@ border: 1px solid #009FE254;
         width: 100%;
         max-width: 300px;
     }
+  
 
     .client-mobile-video {
         height: 250px;
@@ -316,7 +334,7 @@ border: 1px solid #009FE254;
     }
     .firstTwoTestimonial-card{
         width: 95% !important;
-    height: 230px;
+    height: 280px;
     gap: 10px;
     border-radius: 14px;
     border-width: 1px;

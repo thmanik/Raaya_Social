@@ -1,0 +1,307 @@
+
+.footer {
+    background: white;
+    padding: 40px 20px;
+   
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.aboutus{
+    font-family: Poppins;
+font-weight: 600;
+font-size: 18px;
+line-height: 132%;
+letter-spacing: -2%;
+text-transform: capitalize;
+color: #000000;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+.FooterLogo{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 48px !important;
+line-height: 132%;
+letter-spacing: -1%;
+vertical-align: middle;
+
+color:#000000;
+}
+.footerDescription{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 164%;
+letter-spacing: 0%;
+ color: #344054;
+}
+.footer-logo{
+    flex: 1;
+    margin: 10px;
+    min-width: 220px;
+}
+
+.footer-links{
+    flex: 1;
+    margin: 10px;
+    min-width: 220px;
+}
+.footer-services {
+    flex: 1;
+    margin: 10px;
+    min-width: 220px;
+}
+.footer-contact {
+    flex: 1;
+    margin: 10px;
+    min-width: 220px;
+}
+
+.contactus{
+    font-family: Lato;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #000000;
+}
+.footer-buttons {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.footerLogin {
+    width: 99px;
+height: 42px;
+gap: 10px;
+border-radius: 24px;
+padding-top: 8px;
+padding-right: 27px;
+padding-bottom: 8px;
+padding-left: 27px;
+border: 1px solid #f0f1f3;
+background-color: white;
+
+}
+
+.btn.footerBookDemo {
+    background: linear-gradient(177.38deg, #B564F7 8.45%, #6A2F9B 98.78%);
+
+    color: #fff;
+    margin-left: 8px ;
+    width: 160;
+height: 42;
+gap: 10px;
+border-radius: 24px;
+padding-top: 8px;
+padding-right: 27px;
+padding-bottom: 8px;
+padding-left: 27px;
+
+}
+
+.footerQuicklink{
+    font-family: Poppins;
+font-weight: 500px;
+font-size: 18px;
+line-height: 132%;
+letter-spacing: -2%;
+text-transform: capitalize;
+color: #000000;
+
+
+}
+
+.footerServicetitle{
+    font-family: Lato;
+font-weight: 700px;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #000000;
+
+}
+
+.inputsection{
+    margin-top: 15px;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    color: #344054;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 212%;
+    letter-spacing: 0%;
+    
+}
+
+
+.footer-services ul {
+    color: #344054;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 212%;
+    letter-spacing: 0%;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-services li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #344054;
+}
+
+.footer-services a {
+    text-decoration: none;
+    color: #344054;
+}
+
+.footer-contact input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer-contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    width: 285px;
+    height: 38px;
+    gap: 12px;
+    border-radius: 12px;
+    padding-top: 8px;
+    padding-right: 90px;
+    padding-bottom: 8px;
+    padding-left: 90px;
+    background-color: #1D1D1D;
+    color: white;
+    
+}
+
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+
+@media (max-width: 1024px) {
+    .footer-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-links {
+        text-align: center;
+        flex: 100%;
+    }
+    .footer-logo{
+    text-align: center;
+        flex: 100%;
+    }
+
+    
+    .footer-buttons {
+        display: flex;
+        justify-content: center;
+    }
+   
+    .footer-services{
+        text-align: center;
+        flex: 100%;
+    }
+.footer-contact {
+        text-align: center;
+        flex: 100%;
+    }
+
+
+    .btn {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-contact textarea {
+        max-width: 90%;
+        margin: 0 auto 10px;
+          display: block;
+    }
+    .footer-contact input {
+        max-width: 90%;
+        margin: 0 auto 10px;
+        display: block
+    }
+
+   
+    .submit-btn {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-logo h2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .footer-contact input {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .footer-contact textarea {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .submit-btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+}

@@ -69,7 +69,29 @@ border-radius: 16px;
 
 
 /* -------------------media query for making responsive  ------------------------------ */
+@media screen and (max-width: 1024px){
 
+    .shortFormSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 20px;
+        text-align: center;
+      }
+    
+      .ImageSection {
+        width: 100%;
+        max-width: 480px;
+        height: auto;
+        border-radius: 16px;
+      }
+    
+      .text-section {
+        padding: 30px 20px; 
+        text-align: center;
+      }
+}
 @media screen and (max-width: 768px) {
     .shortFormTitle {
         font-size: 24px; 
